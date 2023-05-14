@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mota1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <ul class="menu">
+                <li id="logo"><a href=""></a></li>
+                <li id="daumenu"><a href="trangchinh.html" style="color: #7fad39">T2211E</a></li>
+                <li id="giuamenu">
+                    <a href="">Home</a>
+                    <a href="">Shop</a>
+                    <a href="">Contact</a>
+                </li>
+                <li id="cuoimenu">
+                    <a href="">
+                        <i class="fa-solid fa-user"></i>
+                        Login
+                        
+                    </a>
+                    <a href="">                     
+                        <i class="fa-solid fa-pipe"></i>
+                    </a>
+                    <a href="register.html">
+                        <i class="fa-solid fa-user-plus"></i>
+                        Register
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>SHOP DEAIL</h1>
+            <hr>
+            <div class="fromm">
+                <div class="item">
+                    <img src="imgs/details/product-details-2.jpg" alt="">
+                </div>
+                <div class="item" id="item2">
+                    <h2 style="font-weight: 700 ;">Vetgetable's Package</h2>
+                    <p style="color: red;font-size: 20px ; ">50.00$</p>
+                    <p>Code<span style="margin-left: 80px">777777</span></p>
+                    <p>Brand<span style="margin-left: 78px">Dalat's food</span></p>
+                    <p>info <span style="margin-left: 90px">Very Fresh ,Very Fresh ,Very Fresh ,Green </span></p>
+                    <div class="mini">
+                        <div class="itt">
+                            <input type="number" name="soluong" id="soluong" min="1" style="height: 35px ; width: 45px"> 
+                        </div>
+                        
+                   
+                        <div class="itt" id="iddd">
+                            <a href="" onclick="them()" id="themmoi">ADD TO CARD</a>
+                        </div>
+                        <div class="row" id="message" style="color:red; text-align: center;margin-bottom: 20px ;"></div>
+
+                    </div>
+                </div>
+                <div class="item" style="width: 95%">
+                    <h2>Product Info</h2>
+                    <p style="margin-top: 15px ; font-size: 18px">Vegetables has many benefits. One of the main health benefits of vegetables is their high nutrient content. 
+                        Vegetables are loaded with vitamins and minerals that contribute to growth and the maintenance of good health.Another substantial benefit of vegetables is dietary fiber. 
+                        Fiber is an important nutrient found only in plant foods. Vegetables are also a boon to dieters.
+                         Because they are generally low in fat and calories, you can eat a lot of them without gaining weight. If you substitute vegetables for other, 
+                         higher-calorie foods in your diet, you'll slash your calorie and fat intake, 
+                        making weight management easier. The fiber in vegetables also helps you manage your weight. Fiber makes you feel fuller for a longer period, 
+                        helping you eat less overall and aiding with weight loss or maintenance. In conclusion, vegetables is good for our health.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="cttext">
+                
+                <h2>T2211E-CHAY</h2>
+                <p>
+                    <i class="fa-solid fa-house"></i>
+                    8at , Tôn Thất Thuyết , Mỹ Đình , Hà Nội 
+                </p>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    aptech.hn@fpt.edu.vn
+                </p>
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    (024) 7300 8855 - 097311086
+                </p>
+            </div>
+            <div class="logoft">
+                <ul class="logomenu">
+                    <li>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                    </li>
+                </ul>
+                
+            </div>
+            <hr style="width: 230px ; height: 4px ; background-color: #7fad39;margin-left: 42% ">
+            <p>Copyright @dungpham</p>
+        </div>
+    </div>
+    <script>
+        function them(){
+            let themmoi =  document.getElementById('soluong')
+            console.log(themmoi) ;
+            if(themmoi != 0)
+                document.getElementById('message').innerHTML = "Thêm vào giỏ hàng thành công"
+        }
+    </script>
+</body>
+</html>

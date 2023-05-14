@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <ul class="menu">
+                <li id="logo"><a href=""></a></li>
+                <li id="daumenu"><a href="trangchinh.html" style="color: #7fad39">T2211E</a></li>
+                <li id="giuamenu">
+                    <a href="">Home</a>
+                    <a href="">Shop</a>
+                    <a href="">Contact</a>
+                </li>
+                <li id="cuoimenu">
+                    <a href="">
+                        <i class="fa-solid fa-user"></i>
+                        Login
+                        
+                    </a>
+                    <a href="">                     
+                        <i class="fa-solid fa-pipe"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-user-plus"></i>
+                        Register
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Register</h1>
+            <hr>
+            <div class="froom">
+                
+                <div class="item">
+                    <label for="">Use Name</label>
+                    <br>
+                    <input type="text" name="use-name" id="use-name">
+                </div>
+                 <div class="item">
+                    <label for="">Full Name</label>
+                    <br>
+                    <input type="text" name="full-name" id="full-name">
+                </div>
+                <div class="item">
+                    <label for="">Password</label>
+                    <br>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="item">
+                    <label for="">Confirm Password</label>
+                    <br>
+                    <input type="password" name="confirm password" id="confirmpassword">
+                </div>
+                <div class="item">
+                    <label for="">Birthday</label>
+                    <br>
+                    <input type="date" name="birthday" id="birthday">
+                </div>
+                <div class="item">
+                    <label for="">Gender</label>
+                    <form id="luachon" style="margin-top: 15px">
+                        <input name="gender" type="radio" value="Nam" checked>Nam
+                        <input name="gender" type="radio" value="Nữ" >Nữ
+                        <input name="gender" type="radio" value="Khác" >Khác
+                    </form>
+                </div>
+                <div class="item" style="width: 92.3%">
+                    <label for="">Addrsess</label>
+                    <br>
+                    <input type="text" name="addrsess" id="addrsess">
+                </div>
+                <div class="item">
+                    <label for="">City</label>
+                    <br>
+                    <select name="city" id="city">
+                        <option value="#" >Choose</option>
+                        <option value="hanoi">Hà Nội</option>
+                        <option value="thaibinh">Thái Bình</option>
+                        <option value="namdinh">Nam Định</option>
+                        <option value="sonla">Sơn La</option>
+                        <option value="hungyen">Hưng Yên</option>
+                    </select>                    
+                </div>
+                <div class="item" style="width: 26%">
+                    <label for="">National</label>
+                    <br>
+                    <select name="national" id="national">
+                        <option value="#" >Choose</option>
+                        <option value="vietnam"> Việt Nam</option>
+                        <option value="thailan"> Thai Lan</option>
+                        <option value="laos"> Lao</option>
+                        <option value="my">Hoa Kỳ</option>
+                        <option value="baodaonha">Bồ Đào Nha</option>
+                    </select>                    
+                </div>
+                <div class="item" style="width:17% ">
+                    <label for="">Code</label>
+                    <br>
+                    <input type="text" name="code" id="code">
+                </div>
+                <div class="item" style="width:70% ">
+                    <label for="">Avatar</label>
+                    <br>
+                    <input type="file" name="avatar" id="avatar">
+                </div>
+                <br>
+                <div class="item">
+                    <form >
+                        <input type="checkbox" name="tich" id="tich" checked > I agree to the terms?
+                    </form>
+                </div>
+            </div>
+            <div class="row" id="message" style="color:red; text-align: center;margin-bottom: 20px ;"></div>
+            <div class="checkk">
+                <div class="item1">
+                    <button onclick="check();"> Register</button>
+                   
+                </div>
+                <div class="item2">
+                    <a href="trangchinh.html">Cancel</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="cttext">
+                
+                <h2>T2211E-CHAY</h2>
+                <p>
+                    <i class="fa-solid fa-house"></i>
+                    8at , Tôn Thất Thuyết , Mỹ Đình , Hà Nội 
+                </p>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    aptech.hn@fpt.edu.vn
+                </p>
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    (024) 7300 8855 - 097311086
+                </p>
+            </div>
+            <div class="logoft">
+                <ul class="logomenu">
+                    <li>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                    </li>
+                </ul>
+                
+            </div>
+            <hr>
+            <p>Copyright @dungpham</p>
+        </div>
+    </div>
+    <script>
+        let dsperson = [] ;
+        function check(){
+            let usename = document.getElementById("use-name").value ;
+            if(usename == "" || usename.trim().length == 0 ){
+                document.getElementById("message").innerHTML = "Không được bỏ trống" ;
+                document.getElementById("use-name").focus ;
+                return ;
+            }
+            let fullname = document.getElementById("full-name").value ;
+            if(fullname == "" || fullname.trim().length == 0 ){
+                document.getElementById("message").innerHTML = "Không được bỏ trống" ;
+                document.getElementById("full-name").focus ;
+                return ;
+            }
+            let password = document.getElementById("password").value ;
+            if(password  == "" || password.trim().length == 0 ){
+                document.getElementById("message").innerHTML = "Không được bỏ trống" ;
+                document.getElementById("password ").focus ;
+                return ;
+            }
+            let confirmpassword = document.getElementById("confirmpassword").value ;
+            if(confirmpassword  == "" || confirmpassword.trim().length == 0 ){
+                document.getElementById("message").innerHTML = "Không được bỏ trống" ;
+                document.getElementById("confirmpassword ").focus ;
+                return ;
+            }
+            if(confirmpassword != password){
+                document.getElementById("message").innerHTML = "Mật khẩu không khớp yêu cầu nhập lại" ;
+                return ;
+            }
+            let birthday = document.getElementById("birthday").value ;
+            if(birthday == "" || birthday.trim().length == 0){
+                document.getElementById("message").innerHTML = "Yêu cầu nhập ngày sinh" ;
+                document.getElementById("birthday").focus ;
+                return ;
+            }
+            
+           
+            let addrsess = document.getElementById("addrsess").value ;
+            if(addrsess == "" || addrsess.trim().length == 0 ){
+                document.getElementById("message").innerHTML = "Không được bỏ trống" ;
+                document.getElementById("addrsess").focus ;
+                return ;
+            }
+            
+            let city = document.getElementById("city").value ;
+            
+            if(city == "#"){
+                document.getElementById("message").innerHTML = "Vui lòng chọn thành phố" ;
+                document.getElementById("city").focus ;
+                return ;
+            }
+            let national = document.getElementById("national").value ;
+            if(national == "#"){
+                document.getElementById("message").innerHTML = "Vui lòng chọn quốc gia" ;
+                document.getElementById("national").focus ;
+                return ;
+            }
+            let code = document.getElementById("code").value ;
+            if(code == "" || code.trim().length == 0 ){
+                document.getElementById("message").innerHTML = "Không được bỏ trống" ;
+                document.getElementById("code").focus ;
+                return ;
+            }
+            let avatar = document.getElementById("avatar").value ;
+           
+            if(avatar == ""){
+                document.getElementById("message").innerHTML = "Vui lòng thêm ảnh" ;
+                document.getElementById("avatar").focus ;
+                return ;
+            }
+            document.getElementById("message").innerHTML="" ;
+            document.getElementById("message").innerHTML="Thêm mới thành công " ;
+        }
+    </script>
+</body>
+</html>
